@@ -1,0 +1,13 @@
+.add{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+input,button{
+    align-self: center;
+    justify-self: center;
+    margin-top: 40px;
+    width: 200px;
+    height: 30px;
+    padding: 5px 10px;
+}
+}

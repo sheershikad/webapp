@@ -1,0 +1,29 @@
+{
+  "employees": [
+    {
+      "name": "sheershika",
+      "city": "hyd",
+      "id": 1
+    },
+    {
+      "name": "sri",
+      "city": "haryana",
+      "id": 2
+    },
+    {
+      "name": "siri",
+      "city": "nzb",
+      "id": 3
+    },
+    {
+      "name": "deepa",
+      "city": "hyd",
+      "id": 4
+    },
+    {
+      "name": "roopa",
+      "city": "kamareddy",
+      "id": 5
+    }
+  ]
+}

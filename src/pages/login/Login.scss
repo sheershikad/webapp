@@ -1,0 +1,40 @@
+.loginpage{
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to right,rgba(255,0,0,1), rgba(255,0,0,0));
+    form{
+        background-image: linear-gradient(to right,rgba(66, 41, 41, 0.121), rgba(255,0,0,0));
+      box-shadow: 20px;
+      width: 400px;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+      
+    .email,.password{
+         margin-top: 20px;
+         
+         input{
+            height: 30px;
+            width: 200px;
+            padding: 5px;
+            margin-bottom: 10px;
+    }   
+    }
+   
+    .submit-button button{
+        margin-top: 20px;
+        padding: 5px;
+        height: 50px;
+        width: 150px;
+        background-color: rgb(18, 68, 161);
+        color: aliceblue;
+        
+        
+    }
+}
+}
