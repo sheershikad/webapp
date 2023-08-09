@@ -16,11 +16,11 @@ const Login = () => {
     <div className='loginpage'>
      <form onSubmit={handleSubmit(onSubmit)}>
           <div className="email">
-            <input placeholder='Email' type="email" {...register("email",{ required: true })}/>
+            <input placeholder='Enter Email' type="email" {...register("email",{ required: true })}/>
             <div className="error">{errors.email && <span> <b>*Please Enter Email</b></span>}</div>
           </div>
           <div className="password">
-            <input placeholder='password' type="password" {...register("password",{ required: true })} />
+            <input placeholder='Enter Password' type="password" {...register("password",{ required: true })} />
             <div className="error">{errors.password && <span> <b>* Please Enter Password</b></span>}</div>
           </div>
             <div className="submit-button">
